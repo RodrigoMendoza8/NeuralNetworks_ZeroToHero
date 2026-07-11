@@ -8,5 +8,6 @@ dependencies = [
     "graphviz>=0.21",
     "matplotlib>=3.11.0",
     "numpy>=2.5.1",
+    "requests>=2.34.2",
     "torch>=2.13.0",
 ]
