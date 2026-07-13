@@ -13,3 +13,6 @@ if repuesta.status_code == 200:
 else:
     print("Error al realizar la solicitud:", repuesta.status_code)
     
+nombres_sin_guiones = nombres.replace('-','')
+with open('pokemones_sin_guiones.txt', 'w', encoding='utf-8') as file:
+    file.write(nombres_sin_guiones)
