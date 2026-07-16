@@ -230,7 +230,7 @@ houndoom
 kingdra
 phanpy
 donphan
-porygon2
+porygon
 stantler
 smeargle
 tyrogue
@@ -715,7 +715,7 @@ noibat
 noivern
 xerneas
 yveltal
-zygarde50
+zygarde
 diancie
 hoopa
 volcanion
@@ -1140,8 +1140,8 @@ exeggutoralola
 marowakalola
 greninjabattlebond
 greninjaash
-zygarde10powerconstruct
-zygarde50powerconstruct
+zygardepowerconstruct
+zygardepowerconstruct
 zygardecomplete
 gumshoostotem
 vikavolttotem
@@ -1203,7 +1203,7 @@ darmanitangalarstandard
 darmanitangalarzen
 yamaskgalar
 stunfiskgalar
-zygarde10
+zygarde
 cramorantgulping
 cramorantgorging
 toxtricitylowkey

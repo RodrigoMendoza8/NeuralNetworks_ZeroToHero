@@ -8,11 +8,13 @@ if repuesta.status_code == 200:
         datos = repuesta.json()
         nombres = [pokemon['name'] for pokemon in datos['results']]
         nombres = '\n'.join(nombres)
-        with open('pokemones.txt', 'w', encoding='utf-8') as file:
-            file.write(nombres)
+        nombres_sin_numeros = ''.join([i for i in nombres if not i.isdigit()])
+        with open('Makemore/pokemones.txt', 'w', encoding='utf-8') as file:
+            file.write(nombres_sin_numeros)
 else:
     print("Error al realizar la solicitud:", repuesta.status_code)
     
-nombres_sin_guiones = nombres.replace('-','')
-with open('pokemones_sin_guiones.txt', 'w', encoding='utf-8') as file:
+nombres_sin_guiones = nombres_sin_numeros.replace('-','')
+with open('Makemore/pokemones_sin_guiones.txt', 'w', encoding='utf-8') as file:
     file.write(nombres_sin_guiones)
+    
